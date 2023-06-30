@@ -1,32 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="My portfolio website!">
-	<meta name="author" content="Max Drexler">
+    <meta name="author" content="Max Drexler">
 
     <title>Max Drexler</title>
     <link rel="stylesheet" href="./assets/css/index.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <script src="./assets/lib/jquery-3.7.0.min.js"></script>
-  </head>
-  <body>
-    <header>
-        <div class="header-img-wrapper">
-            <div class="header-img-border"></div>
-            <img id="main-headshot" src="./assets/imgs/headshot01_portrait_circle.png" alt="Me">
-        </div>
-        <div class="header-text-wrap">
-            <h1>
-                Hey, I'm Max.
-            </h1>
-            <h2>
-                An aspiring programmer.
-            </h2>
-        </div>
-    </header>
-	<script src="./assets/js/index.js"></script>
-  </body>
+</head>
+
+<body>
+    <div class="header-text-wrapper">
+        <h1 class="header-text">Hey, I'm Max.</h1>
+        <h4><i>An aspiring programmer.</i></h4>
+    </div>
+    <div id="section-selector">
+        <ul>
+            <li>
+                <a href="#about">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#projects">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    Skills
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+            <li class="section-link">
+                <a href="file:">
+                    Resume
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="sections">
+        <ul>
+            <li id="about">
+                <h2>About</h2>
+            </li>
+            <li id="projects">
+                <h2>Projects</h2>
+            </li>
+            <li id="skills">
+                <h2>Skills</h2>
+            </li>
+            <li id="contact">
+                <h2>Contact</h2>
+            </li>
+        </ul>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+
 </html>
